@@ -41,7 +41,13 @@ def trade():
 
 
 def analyze(symbol, hist, index):
+    account=api.get_account()
+    balance=float(account.equity)
     print("analyze")
+    if positions[index]!=0:
+        sell(symbol, amount, index)
+    elif positions[index]==0:
+        print("Nothing owned")
 
 
 def order(name, number, index):
