@@ -12,7 +12,7 @@ shares=[0,0,0,0]
 print("Welcome to an Open Source Stock trading bot")
 print("You will be updated periodically on your account equity, purchases and buying power")
 #amzn=0 msft=1 goog=2 fb=3
-api = tradeapi.REST('PKQJOI25DAFM21LXXIYE', 'NL4hFAkbVPXmFLIqhzddXcZ1jWemq4zSBoOkQjWW', 'https://paper-api.alpaca.markets', api_version='v2')
+api = tradeapi.REST('PK6I2NFVZ3DH6YSND1BF', 'WPe7YldTUwpNYkyiihmFVxMyIrjE9M1XNIm3K194', 'https://paper-api.alpaca.markets', api_version='v2')
 def trade():
     #anything with an L at the end is data that is stored every minute
     clock = api.get_clock()
