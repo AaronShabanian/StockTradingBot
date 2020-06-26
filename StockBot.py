@@ -12,7 +12,7 @@ shares=[0,0,0,0]
 print("Welcome to an Open Source Stock trading bot")
 print("You will be updated periodically on your account equity, purchases and buying power")
 #amzn=0 msft=1 goog=2 fb=3
-api = tradeapi.REST('PK6I2NFVZ3DH6YSND1BF', 'WPe7YldTUwpNYkyiihmFVxMyIrjE9M1XNIm3K194', 'https://paper-api.alpaca.markets', api_version='v2')
+api = tradeapi.REST('PKPBENNGKZ9E10NWEYLN', 'cAwATJ534258CdTvc7jJN0LlvqfPOh4PKdw3xz53', 'https://paper-api.alpaca.markets', api_version='v2')
 def trade():
     #anything with an L at the end is data that is stored every minute
     clock = api.get_clock()
@@ -67,10 +67,10 @@ def trade():
 
 def analyze(symbol, hist, index):
     size=len(hist)
+    currPrice=int(hist[size-1])
     account=api.get_account()
     balance=float(account.equity)
     if positions[index]!=0:
-        currPrice=si.get_live_price(symbol)
         difference=currPrice-buyPrice[index]
         percent= (difference/buyPrice[index])*100
         current_time = datetime.datetime.now(pytz.timezone('US/Eastern'))
@@ -79,11 +79,11 @@ def analyze(symbol, hist, index):
         elif current_time.hour==3 and current_time.minute==58:
             sell(symbol, positions[index], index)
     elif positions[index]==0:
-        power=account.buying_power
-        if hist[size-1]<hist[size-9] and hist[size-1]>hist[size-2] and power>currPrice:
+        power=int(account.buying_power)
+        if int(hist[size-1])<int(hist[size-9]) and int(hist[size-1])>int(hist[size-2]) and power>currPrice:
             maxShares=int(power/currPrice)
             purchaseNum=random.randrange(1,maxShares)
-            order(sybol,purchaseNum,index)
+            order(symbol,purchaseNum,index)
 
 
 def order(name, number, index):
