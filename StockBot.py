@@ -12,7 +12,7 @@ shares=[0,0,0,0]
 print("Welcome to an Open Source Stock trading bot")
 print("You will be updated periodically on your account equity, purchases and buying power")
 #amzn=0 msft=1 goog=2 fb=3
-api = tradeapi.REST('PKJOYQBWNVM42DZWCLGA', 'pMPDV9I4UbsjMiSs5ijYM2s8xdS7uMSfl7X2dByu', 'https://paper-api.alpaca.markets', api_version='v2')
+api = tradeapi.REST('PKGXT26MS12BA7DE3CNO', 'dGXrytdLhsdWxVjEIIW1UARx5W6g1LVbTDFphwpE', 'https://paper-api.alpaca.markets', api_version='v2')
 account=api.get_account()
 def trade():
     #anything with an L at the end is data that is stored every minute
@@ -92,8 +92,9 @@ def analyze(symbol, hist, index):
         power=float(account.cash)
         if float(hist[size-1])<float(hist[size-9]) and float(hist[size-1])>float(hist[size-2]) and power>currPrice:
             maxShares=int(power/currPrice)
-            purchaseNum=random.randrange(1,maxShares)
-            order(names,purchaseNum,index)
+            if maxShares!=0:
+                purchaseNum=random.randrange(1,maxShares)
+                order(names,purchaseNum,index)
 
 
 def order(name, number, index):
@@ -139,10 +140,11 @@ def sell(name, number, index):
     elif index==3:
         sellPrice[index]=si.get_live_price("fb")
     print("Sold "+name+" Number of Shares: "+strnum+ " At $"+pricesold+ " Per Share")
-    gain=str(sellPrice[index]-buyPrice[index])
+    gain=(sellPrice[index]-buyPrice[index])
+    gainstr=str(gain)
     if gain>=0:
-        print("Sold at a gain of $"+gain+" Per Share")
+        print("Sold at a gain of $"+gainstr+" Per Share")
     else:
-        print("Sold at a loss of $"+gain+" Per Share")
+        print("Sold at a loss of $"+gainstr+" Per Share")
 
 trade()
