@@ -6,13 +6,14 @@ import datetime
 import requests
 from yahoo_fin import stock_info as si
 positions=[0,0,0,0]
+hold=[20, 20, 20, 20]
 buyPrice=[0,0,0,0]
 sellPrice=[0,0,0,0]
 shares=[0,0,0,0]
 print("Welcome to an Open Source Stock trading bot")
 print("You will be updated periodically on your account equity, purchases and buying power")
 #amzn=0 msft=1 goog=2 fb=3
-api = tradeapi.REST('PKGXT26MS12BA7DE3CNO', 'dGXrytdLhsdWxVjEIIW1UARx5W6g1LVbTDFphwpE', 'https://paper-api.alpaca.markets', api_version='v2')
+api = tradeapi.REST('PKLWBD77E360VSL7KSE3', '/FEgguKYaosrWXCkm0USWocl/gNtmS76z5Deu04/', 'https://paper-api.alpaca.markets', api_version='v2')
 account=api.get_account()
 def trade():
     #anything with an L at the end is data that is stored every minute
@@ -43,10 +44,14 @@ def trade():
                     googl.pop(0)
                     fbl.pop(0)
                 if counter>10:
-                    analyze(amzn,amznl,0)
-                    analyze(msft, msftl, 1)
-                    analyze(goog, googl, 2)
-                    analyze(fb,fbl,3)
+                    if hold[0]>19:
+                        analyze(amzn,amznl,0)
+                    if hold[1]>19:
+                        analyze(msft, msftl, 1)
+                    if hold[2]>19:
+                        analyze(goog, googl, 2)
+                    if hold[3]>19:
+                        analyze(fb,fbl,3)
                 time.sleep(1)
                 if counter%10==0:
                     account=api.get_account()
@@ -59,6 +64,10 @@ def trade():
                     print(power)
                     print("Current Total Equity is: $")
                     print(balance)
+                    hold[0]+=1
+                    hold[1]+=1
+                    hold[2]+=1
+                    hold[3]+=1
             else:
                 print("Market has Closed")
                 break;
@@ -146,5 +155,6 @@ def sell(name, number, index):
         print("Sold at a gain of $"+gainstr+" Per Share")
     else:
         print("Sold at a loss of $"+gainstr+" Per Share")
+        hold[index]=0
 
 trade()
