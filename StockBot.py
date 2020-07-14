@@ -18,6 +18,7 @@ secretkey=input("Enter your secret Key: ")
 endpoint=input("Enter your endpoint: ")
 api = tradeapi.REST(apikey, secretkey, endpoint, api_version='v2')
 account=api.get_account()
+end=False
 def trade():
     #anything with an L at the end is data that is stored every minute
     clock = api.get_clock()
@@ -55,6 +56,8 @@ def trade():
                         analyze(goog, googl, 2)
                     if hold[3]>19:
                         analyze(fb,fbl,3)
+                if end==True:
+                    break
                 time.sleep(1)
                 if counter%10==0:
                     account=api.get_account()
@@ -96,17 +99,22 @@ def analyze(symbol, hist, index):
         difference=currPrice-buyPrice[index]
         percent= (difference/buyPrice[index])*100
         current_time = datetime.datetime.now(pytz.timezone('US/Eastern'))
-        if hist[size-1]<hist[size-2]:
+        if current_time.hour==15 and (current_time.minute==58 or current_time.minute==59):
             sell(names, positions[index], index)
-        elif current_time.hour==3 and current_time.minute==58:
+            end=True
+        elif hist[size-1]<hist[size-2]:
             sell(names, positions[index], index)
     elif positions[index]==0:
-        power=float(account.cash)
-        if float(hist[size-1])<float(hist[size-9]) and float(hist[size-1])>float(hist[size-2]) and power>currPrice:
-            maxShares=int(power/currPrice)
-            if maxShares!=0:
-                purchaseNum=random.randrange(1,maxShares)
-                order(names,purchaseNum,index)
+        if current_time.hour==15 and (current_time.minute==58 or current_time.minute==59):
+            sell(names, positions[index], index)
+            end=True
+        else:
+            power=float(account.cash)
+            if float(hist[size-1])<float(hist[size-9]) and float(hist[size-1])>float(hist[size-2]) and power>currPrice:
+                maxShares=int(power/currPrice)
+                if maxShares!=0:
+                    purchaseNum=random.randrange(1,maxShares)
+                    order(names,purchaseNum,index)
 
 
 def order(name, number, index):
