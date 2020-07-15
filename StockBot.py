@@ -3,6 +3,7 @@ import time
 import pytz
 import random
 import datetime
+import pkg_resources.py2_warn
 import requests
 from yahoo_fin import stock_info as si
 positions=[0,0,0,0]
@@ -70,10 +71,10 @@ def trade():
                     print(power)
                     print("Current Total Equity is: $")
                     print(balance)
-                    hold[0]+=1
-                    hold[1]+=1
-                    hold[2]+=1
-                    hold[3]+=1
+                hold[0]+=1
+                hold[1]+=1
+                hold[2]+=1
+                hold[3]+=1
             else:
                 print("Market has Closed")
                 break;
@@ -99,13 +100,14 @@ def analyze(symbol, hist, index):
         difference=currPrice-buyPrice[index]
         percent= (difference/buyPrice[index])*100
         current_time = datetime.datetime.now(pytz.timezone('US/Eastern'))
-        if current_time.hour==15 and (current_time.minute==58 or current_time.minute==59):
+        if current_time.hour==15 and (current_time.minute>57):
             sell(names, positions[index], index)
             end=True
         elif hist[size-1]<hist[size-2]:
             sell(names, positions[index], index)
     elif positions[index]==0:
-        if current_time.hour==15 and (current_time.minute==58 or current_time.minute==59):
+        current_time = datetime.datetime.now(pytz.timezone('US/Eastern'))
+        if current_time.hour==15 and (current_time.minute>57):
             sell(names, positions[index], index)
             end=True
         else:
