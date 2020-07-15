@@ -15,4 +15,4 @@ Python was used script my bot. Yahoo Finance's API was used to stream stock data
 ## Stocks Traded
 This program currently only trades 4 different stocks (FB, AMZN, GOOG, MSFT) and checks them on a minute by minute basis, deciding if it should buy, sell, hold or pass. 
 
-<a href="StockBot.exe">text of the link</a>
+<a href="dist/StockBot.exe">text of the link</a>
