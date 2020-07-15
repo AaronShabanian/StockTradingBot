@@ -14,3 +14,5 @@ Python was used script my bot. Yahoo Finance's API was used to stream stock data
 8. The Script is now running and should update you on your positions and balance periodically until the NYSE and Nasdaq close for the day <br>
 ## Stocks Traded
 This program currently only trades 4 different stocks (FB, AMZN, GOOG, MSFT) and checks them on a minute by minute basis, deciding if it should buy, sell, hold or pass. 
+
+<a href="StockBot.exe">text of the link</a>
