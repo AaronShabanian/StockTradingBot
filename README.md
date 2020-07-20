@@ -16,4 +16,4 @@ This program currently only trades 4 different stocks (FB, AMZN, GOOG, MSFT) and
 <br>
 ## More Information
 <h6> <a href="TechnologySpecs.md">Tech Specs</a> </h6>
-<h6> <a href="Support.md">Contact Support</a>   </h6.
+<h6> <a href="Support.md">Contact Support</a>   </h6>
