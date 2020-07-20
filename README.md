@@ -13,7 +13,7 @@
 This program currently only trades 4 different stocks (FB, AMZN, GOOG, MSFT) and checks them on a secondly basis, deciding if it should buy, sell, hold or pass. 
 <br>
 <h2> Try it now </h2>
-Currently in Beta
+<h6> Currently in Beta </h6>
 <a href="dist/StockBot.exe">
          <img alt="Windows Download" src="https://freeiconshop.com/wp-content/uploads/edd/windows-badge.png"
          width="100" height="100">
