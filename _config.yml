@@ -1,3 +1,4 @@
 theme: jekyll-theme-hacker
 title: Automated Stock Trader
 description: Automated Trading for all
+show_downloads: true
