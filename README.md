@@ -20,7 +20,7 @@
 <img src="Trynow.jpg" alt="Try Now">
 <br>
 4. Follow the Command line prompts prompting you for your Alpaca ID and secret key <br>
-<img src="demo.jpg" alt="Try Now">
+<img src="demo.PNG" alt="Try Now">
 <br>
 5. The Script is now running and should update you on your positions and balance periodically until the NYSE and Nasdaq close for the day <br>
 <br>
