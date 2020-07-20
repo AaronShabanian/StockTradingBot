@@ -2,6 +2,7 @@
 
 <br>
 ## How to Use
+<br>
 1. Create an Account at Alpaca.markets so you can trade with either paper money or real money. <br>
 2. Reveal your API keys<br>
 3. Download our automated assistant and run <br>
