@@ -2,3 +2,5 @@ theme: jekyll-theme-slate
 title: Automated Stock Trader
 description: Automated Trading for all
 show_downloads: true
+github:
+  is_project_page: false
