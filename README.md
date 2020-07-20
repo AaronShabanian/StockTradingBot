@@ -1,6 +1,8 @@
 # Simple Automated Investing for All
 
 <br>
+<p>As trading evolves along with technology, automated algorithmic trading is becoming essential in maximizing day trading gains. Large quantative trading firms and hedge funds already have their own algorithms making them money everyday. Its time for you to be able to do the same.
+</p>
 <h2> Try it now </h2>
 <h6> Currently in Beta </h6>
 <a href="dist/StockBot.exe">
