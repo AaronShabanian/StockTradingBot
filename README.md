@@ -16,7 +16,7 @@ This program currently only trades 4 different stocks (FB, AMZN, GOOG, MSFT) and
 <h6> <a href="dist/StockBot.exe">Version 1.0</a> </h6>
 <a href="dist/StockBot.exe">
          <img alt="Windows Download" src="https://freeiconshop.com/wp-content/uploads/edd/windows-badge.png"
-         width="150" height="80">
+         width="150" height="100">
       </a>
 <br>
 <h2> More Information </h2>
