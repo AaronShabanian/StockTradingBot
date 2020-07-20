@@ -11,4 +11,4 @@ Welcome to an Open Source Stock Trading Bot.
 This program currently only trades 4 different stocks (FB, AMZN, GOOG, MSFT) and checks them on a minute by minute basis, deciding if it should buy, sell, hold or pass. 
 ## Downloads
 <a href="dist/StockBot.exe">Version 1.0</a>
-## <a href="TechnologySpecs">Tech Specs</a>
+## <a href="TechnologySpecs.md">Tech Specs</a>
