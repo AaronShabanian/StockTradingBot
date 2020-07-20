@@ -4,7 +4,11 @@
 <h2> How to Use </h2>
 <br>
 1. Create an Account at Alpaca.markets so you can trade with either paper money or real money. <br>
+<img src="alpacahome.jpg" alt="Alpaca home">
+<br>
 2. Reveal your API keys<br>
+<img src="revealapikey.jpg" alt="Reveal API Keys">
+<br>
 3. Download our automated assistant and run <br>
 4. Follow the Command line prompts prompting you for your Alpaca ID and secret key <br>
 5. The Script is now running and should update you on your positions and balance periodically until the NYSE and Nasdaq close for the day <br>
