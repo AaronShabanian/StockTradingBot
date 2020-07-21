@@ -9,6 +9,8 @@
   gtag('config', 'UA-167862552-2');
 </script>
 
+<script data-ad-client="ca-pub-9371724929988937" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <br>
 <p>As trading evolves along with technology, automated algorithmic trading is becoming essential in maximizing day trading gains. Large quantative trading firms and hedge funds already have their own algorithms making them money everyday. Its time for you to be able to do the same.
 </p>
