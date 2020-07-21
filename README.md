@@ -1,4 +1,13 @@
 # Simple Automated Investing for All
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167862552-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-167862552-2');
+</script>
 
 <br>
 <p>As trading evolves along with technology, automated algorithmic trading is becoming essential in maximizing day trading gains. Large quantative trading firms and hedge funds already have their own algorithms making them money everyday. Its time for you to be able to do the same.
