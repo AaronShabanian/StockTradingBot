@@ -16,7 +16,7 @@
 </p>
 <h2> Try it now </h2>
 <h6> Currently in Beta </h6>
-<a href="dist/StockBot.exe">
+<a href="windowsRelease/StockBot.exe">
          <img alt="Windows Download" src="https://freeiconshop.com/wp-content/uploads/edd/windows-badge.png"
          width="100" height="100">
       </a>
@@ -38,7 +38,7 @@
 5. The Script is now running and should update you on your positions and balance periodically until the NYSE and Nasdaq close for the day <br>
 <br>
 <h2> Stocks Traded </h2>
-This program currently only trades 4 different stocks (FB, AMZN, GOOG, MSFT) and checks them on a secondly basis, deciding if it should buy, sell, hold or pass. 
+This program currently only trades 4 different stocks (FB, AMZN, GOOG, MSFT) and checks them on a secondly basis, deciding if it should buy, sell, hold or pass.
 <br>
 <h2> More Information </h2>
 <h6> <a href="TechnologySpecs.md">Tech Specs</a> </h6>

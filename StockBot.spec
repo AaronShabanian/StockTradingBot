@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['StockBot.py'],
-             pathex=['C:\\Users\\a2sha\\Documents\\StockTradingBot'],
+             pathex=['/Users/aaronshabanian/Documents/StockTradingBot'],
              binaries=[],
              datas=[],
              hiddenimports=[],
