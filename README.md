@@ -22,6 +22,10 @@
          <img alt="Windows Download" src="https://freeiconshop.com/wp-content/uploads/edd/windows-badge.png"
          width="100" height="100">
       </a>
+<a href="macRelease/StockBot.exe">
+         <img alt="Windows Download" src="https://freeiconshop.com/wp-content/uploads/edd/windows-badge.png"
+         width="100" height="100">
+      </a>
 <h6> Previous Versions </h6>
 <a href="windowsRelease/StockBot-V1.01.exe">StockBot-V1.00</a>
 <br>
