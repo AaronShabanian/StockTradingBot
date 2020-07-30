@@ -17,6 +17,7 @@
 <h2> Try it now </h2>
 <h6> Currently in Beta </h6>
 <h6> Whats new: Algorithmic Improvements relating to buying and selling decisions</h6>
+<h6> Current Version Number: V1.01 </h6>
 <a href="windowsRelease/StockBot-V1.01.exe">
          <img alt="Windows Download" src="https://freeiconshop.com/wp-content/uploads/edd/windows-badge.png"
          width="100" height="100">
