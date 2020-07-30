@@ -5,6 +5,7 @@ import random
 import datetime
 import pkg_resources.py2_warn
 import requests
+import sys
 from yahoo_fin import stock_info as si
 positions=[0,0,0,0]
 hold=[20, 20, 20, 20]
@@ -58,7 +59,8 @@ def trade():
                     if hold[3]>19:
                         analyze(fb,fbl,3)
                 if end==True:
-                    break
+                    print("Market is now closed")
+                    sys.exit(0)
                 time.sleep(1)
                 if counter%10==0:
                     account=api.get_account()
@@ -103,19 +105,21 @@ def analyze(symbol, hist, index):
         if current_time.hour==15 and (current_time.minute>57):
             sell(names, positions[index], index)
             end=True
-        elif hist[size-1]<hist[size-2]:
+        elif hist[size-1]<hist[size-2] and hist[size-2]<hist[size-3]:
             sell(names, positions[index], index)
     elif positions[index]==0:
         current_time = datetime.datetime.now(pytz.timezone('US/Eastern'))
         if current_time.hour==15 and (current_time.minute>57):
-            sell(names, positions[index], index)
             end=True
         else:
             power=float(account.cash)
-            if float(hist[size-1])<float(hist[size-9]) and float(hist[size-1])>float(hist[size-2]) and power>currPrice:
+            if (float(hist[size-3])<float(hist[size-9]) and float(hist[size-1])>float(hist[size-2]) and float(hist[size-2])>float(hist[size-3]) and power>currPrice):
                 maxShares=int(power/currPrice)
-                if maxShares!=0:
-                    purchaseNum=random.randrange(1,maxShares)
+                if maxShares>0:
+                    if maxShares==1:
+                        purchaseNum=1
+                    else:
+                        purchaseNum=random.randrange(1,maxShares)
                     order(names,purchaseNum,index)
 
 
