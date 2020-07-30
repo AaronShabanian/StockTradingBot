@@ -23,7 +23,7 @@
          width="100" height="100">
       </a>
 <a href="macRelease/StockBot.exe">
-         <img alt="Windows Download" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fthestempedia.com%2Fproduct%2Fpictoblox%2Fdownload-pictoblox%2F&psig=AOvVaw1L30MrGZgj4m38wdbm81Jb&ust=1596227375233000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjv7sTo9eoCFQAAAAAdAAAAABAD"
+         <img alt="Windows Download" src="https://static.wixstatic.com/media/fb8ca0_4a57221773ea4ab891bc6b80a54f225e~mv2.png/v1/fill/w_335,h_113,al_c,q_85,usm_0.66_1.00_0.01/mac-button.webp"
          width="100" height="100">
       </a>
 <h6> Previous Versions </h6>
