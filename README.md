@@ -22,9 +22,6 @@
          <img alt="Windows Download" src="https://freeiconshop.com/wp-content/uploads/edd/windows-badge.png"
          width="100" height="100">
       </a>
-<a href="macRelease/StockBot.exe">
-         <img alt="Windows Download" src="https://static.wixstatic.com/media/fb8ca0_4a57221773ea4ab891bc6b80a54f225e~mv2.png/v1/fill/w_335,h_113,al_c,q_85,usm_0.66_1.00_0.01/mac-button.webp"
-         width="100" height="35" align="right">    </a>
 <h6> Previous Versions </h6>
 <a href="windowsRelease/StockBot-V1.01.exe">StockBot-V1.00</a>
 <br>
