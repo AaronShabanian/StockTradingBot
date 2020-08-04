@@ -31,7 +31,7 @@
 <img src="revealapikey.jpg" alt="Reveal API Keys">
 <br>
 3. Download our automated assistant and run <br>
-<img src="Trynow.jpg" alt="Try Now">
+<img src="Purcase now.jpg" alt="Try Now">
 <br>
 4. Follow the Command line prompts prompting you for your Alpaca ID and secret key <br>
 <img src="demo.PNG" alt="Try Now">
