@@ -20,10 +20,7 @@
 <h6> Currently in Beta </h6>
 <h6> Whats new: Algorithmic Improvements relating to buying and selling decisions</h6>
 <h6> Current Version Number: V1.01 </h6>
-<a href="https://www.payloadz.com/go/sip?id=3354936" target="paypal"><img src="https://freeiconshop.com/wp-content/uploads/edd/windows-badge.png" border="0" width="100" height="100"></a>
 <a data-dpd-type="button" data-text="PURCHASE NOW- WINDOWS" data-variant="price-right" data-button-size="dpd-large" data-bg-color="469d3d" data-bg-color-hover="5cc052" data-text-color="ffffff" data-pr-bg-color="ffffff" data-pr-color="000000" data-lightbox="1" href="https://automatedtrader.dpdcart.com/cart/buy?product_id=199194&amp;product_price_id=216882&amp;gateway=creditcard">PURCHASE NOW- WINDOWS</a><script src="https://automatedtrader.dpdcart.com/dpd.js"></script>
-<h6> Previous Versions </h6>
-<a href="windowsRelease/StockBot-V1.01.exe">StockBot-V1.00</a>
 <br>
 <h2> How to Use </h2>
 <br>
