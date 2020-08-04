@@ -22,7 +22,7 @@
          <img alt="Windows Download" src="https://freeiconshop.com/wp-content/uploads/edd/windows-badge.png"
          width="100" height="100">
       </a>
-<a href="https://www.payloadz.com/go/sip?id=3354936" target="paypal"><img src="http://image.payloadz.com/images/btn-buynow-b.png" border="0"/></a>
+<a href="https://www.payloadz.com/go/sip?id=3354936" target="paypal"><img src="https://freeiconshop.com/wp-content/uploads/edd/windows-badge.png" border="0"/></a>
 <h6> Previous Versions </h6>
 <a href="windowsRelease/StockBot-V1.01.exe">StockBot-V1.00</a>
 <br>
