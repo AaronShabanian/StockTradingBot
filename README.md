@@ -48,3 +48,13 @@ This program currently only trades 4 different stocks (FB, AMZN, GOOG, MSFT) and
 <h2> More Information </h2>
 <h6> <a href="TechnologySpecs.html">Tech Specs</a> </h6>
 <h6> <a href="Support.html">Contact Support</a>   </h6>
+
+<form method=”post” name=”contact_form” action=”contact-form-handler.php”> Your Name: <input type=”text” name=”name”> Email Address:
+
+<input type=”text” name=”email”> Message:
+
+<textarea name=”message”></textarea>
+
+<input type=”submit” value=”Submit”>
+
+</form>
