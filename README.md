@@ -1,4 +1,6 @@
 # Simple Automated Investing for All
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/4523c5b0b30a41333ce26d8ed/8d5fb81582d51b31db295b260.js");</script>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167862552-2"></script>
 <script>
