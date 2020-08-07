@@ -113,7 +113,7 @@ def analyze(symbol, hist, index):
             end=True
         else:
             power=float(account.cash)
-            if (float(hist[size-3])<float(hist[size-9]) and float(hist[size-1])>float(hist[size-2]) and float(hist[size-2])>float(hist[size-3]) and power>currPrice):
+            if (float(hist[size-3])>float(hist[size-4]) and float(hist[size-1])>float(hist[size-2]) and float(hist[size-2])>float(hist[size-3]) and power>currPrice):
                 maxShares=int(power/currPrice)
                 if maxShares>0:
                     if maxShares==1:
@@ -121,6 +121,8 @@ def analyze(symbol, hist, index):
                     else:
                         purchaseNum=random.randrange(1,maxShares)
                     order(names,purchaseNum,index)
+    if end==true:
+        sys.exit()
 
 
 def order(name, number, index):
