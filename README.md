@@ -18,6 +18,7 @@
 </p>
 <h2> Try it now </h2>
 <h6> Currently in Beta </h6>
+<h6> All future updates will be available for people who purchase now </h6>
 <h6> Whats new: Algorithmic Improvements relating to buying and selling decisions. Bug Fixes</h6>
 <h6> Current Version Number: V1.10 </h6>
 <a data-dpd-type="button" data-text="PURCHASE NOW- WINDOWS" data-variant="price-right" data-button-size="dpd-large" data-bg-color="469d3d" data-bg-color-hover="5cc052" data-text-color="ffffff" data-pr-bg-color="ffffff" data-pr-color="000000" data-lightbox="1" href="https://automatedtrader.dpdcart.com/cart/buy?product_id=199194&amp;product_price_id=216882&amp;gateway=creditcard">PURCHASE NOW- WINDOWS</a><script src="https://automatedtrader.dpdcart.com/dpd.js"></script>
