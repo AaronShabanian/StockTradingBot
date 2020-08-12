@@ -10,9 +10,12 @@
 
   gtag('config', 'UA-167862552-2');
 </script>
-
-<script data-ad-client="ca-pub-9371724929988937" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
+<script type="text/javascript">
+    window._mNHandle = window._mNHandle || {};
+    window._mNHandle.queue = window._mNHandle.queue || [];
+    medianet_versionId = "3121199";
+</script>
+<script src="https://contextual.media.net/dmedianet.js?cid=8CU1OOJ43" async="async"></script>
 <br>
 <p>As trading evolves along with technology, automated algorithmic trading is becoming essential in maximizing day trading gains. Large quantative trading firms and hedge funds already have their own algorithms making them money everyday. Its time for you to be able to do the same.
 </p>
@@ -48,3 +51,13 @@ This program currently only trades 4 different stocks (FB, AMZN, GOOG, MSFT) and
 <h6> <a href="TechnologySpecs.html">Tech Specs</a> </h6>
 <h6> <a href="Support.html">Contact Support</a>   </h6>
 <h6> <a href="Troubleshoot.html">Troubleshooting Tips</a><h6>
+<div id="896247347">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("896247347", "300x250", "896247347");
+            });
+        }
+        catch (error) {}
+    </script>
+</div>
