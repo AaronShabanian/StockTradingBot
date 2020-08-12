@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['StockBot.py'],
+a = Analysis(['Stockbot.py'],
              pathex=['C:\\Users\\a2sha\\Documents\\StockTradingBot'],
              binaries=[],
              datas=[],
@@ -23,7 +23,7 @@ exe = EXE(pyz,
           a.zipfiles,
           a.datas,
           [],
-          name='StockBot',
+          name='Stockbot',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,

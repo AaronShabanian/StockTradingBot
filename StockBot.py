@@ -98,6 +98,7 @@ def analyze(symbol, hist, index):
     currPrice=float(hist[size-1])
     account=api.get_account()
     balance=float(account.equity)
+    end=False
     if positions[index]!=0:
         difference=currPrice-buyPrice[index]
         percent= (difference/buyPrice[index])*100
@@ -121,7 +122,7 @@ def analyze(symbol, hist, index):
                     else:
                         purchaseNum=random.randrange(1,maxShares)
                     order(names,purchaseNum,index)
-    if end==true:
+    if end==True:
         sys.exit()
 
 
