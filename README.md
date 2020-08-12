@@ -50,7 +50,7 @@ This program currently only trades 4 different stocks (FB, AMZN, GOOG, MSFT) and
 <h2> More Information </h2>
 <h6> <a href="TechnologySpecs.html">Tech Specs</a> </h6>
 <h6> <a href="Support.html">Contact Support</a>   </h6>
-<h6> <a href="Troubleshoot.html">Troubleshooting Tips</a><h6>
+<h6> <a href="Troubleshoot.html">Troubleshooting Tips</a></h6>
 <div id="896247347">
     <script type="text/javascript">
         try {
