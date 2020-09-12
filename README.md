@@ -25,8 +25,7 @@
 <h6> Whats new: Bug Fixes</h6>
 <h6> Current Version Number: V1.11 </h6>
 <h6> Upon downloading, you will be provided with both Automated Trader and Automated Trader lite </h6>
-<a data-dpd-type="button" data-text="Download Now- WINDOWS" data-variant="price-right" data-button-size="dpd-large" data-bg-color="469d3d" data-bg-color-hover="5cc052" data-text-color="ffffff" data-pr-bg-color="ffffff" data-pr-color="000000" data-lightbox="1" href="https://automatedtrader.dpdcart.com/cart/buy?product_id=199194&amp;product_price_id=216882&amp;gateway=creditcard">PURCHASE NOW- WINDOWS</a><script src="https://automatedtrader.dpdcart.com/dpd.js"></script>
-<br>
+<h3> <a href="AutomatedTrader.zip"> Download Here </a> </h3> 
 <h6> Need help? Have Suggestions? <a href="Support.html">Contact Support</a>   </h6>
 <p> Due to Pattern Day Trading Laws by the SEC, all users must have at least at least $25,000 in their account to be able to place as many day trades as wanted in the same day. If a user has less than $25,000 in their account, they are limited to 3 day trades per week. Because of these regulations, there are 2 editions of our Automated Trader, (Full edition and Lite edition). Full Edition is recommended for users that are not subject to pattern day trading laws(over $25,000 in account) while lite edition is recommended for users with below $25,000. Full edition analyzes stock patterns every couple seconds, resulting in hundreds of very short term trades being processed per day. Lite edition analyzes stock patterns every couple minutes, resulting in fewer longer term day trades capped at three per day. Read more about the Pattern day trading rules  <a href="patterndaytrading.html">Here</a> </p>
 <h2> How to Use </h2>
